@@ -1,0 +1,5 @@
+TASK:
+Create a console application implementing the functions described in the task #1 but for a set of complex numbers. The application should include the main module, "application" module, "matrix" module, and "complex" module.
+
+To achieve this, add a module to the project from lab work #1 with a custom (not taken from the standard library) description and implementation of the complex number class, named TComplex. Integrate the TComplex class into the project according to the class diagram in figure #2. The main module, "application" module, and "matrix" module should not be changed. Only modifications are made to the header file "number.h"
+Define in the TComplex class only those members and specifications necessary for compatibility between project modules and the implementation of relationships outlined in the object model diagram.
