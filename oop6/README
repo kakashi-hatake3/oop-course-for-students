@@ -1,0 +1,6 @@
+TASK:
+Create a distributed application comprising client and server components that interact through network message exchange.
+
+The client and server parts are applications implemented in task #5. The client part is modified so that the implemented matrix functions can be executed by the user's choice in the domains of real, complex, and rational numbers.
+
+The distinction in the server part lies in parameterizing the "Matrix" and "Square Matrix" classes. The class parameter becomes an abstract type called "number," with the file "number.h" excluded from the server application.
