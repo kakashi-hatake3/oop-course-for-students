@@ -1,0 +1,4 @@
+TASK:
+Create a distributed application comprising client and server components that interact through network message exchange.
+
+The client and server parts are applications implemented in task #4. The difference lies in making the "Square Matrix" class a subclass of the "Matrix" class with an arbitrary number of rows and columns (generalization relationship). This entails moving certain attributes and methods from the "Square Matrix" class to the parent "Matrix" class, which is the focus of this task.
