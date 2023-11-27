@@ -1,0 +1,12 @@
+TASK:
+
+Create a distributed application comprising client and server components that interact through network message exchange.
+
+The client part is a GUI application implementing an interface similar to task #3.
+
+The server part is a console application designed to execute the functions listed in the menu of task #1 over a square matrix with rational elements.
+
+
+
+
+
