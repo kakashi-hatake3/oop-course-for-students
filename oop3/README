@@ -1,0 +1,7 @@
+TASK:
+To create a GUI application implementing the functions described in task #1 for a set of rational numbers, you need to design and implement a class for rational numbers (TRational). The rational number class should represent an irreducible fraction, where both the numerator (a) and denominator (b) are integers, and the denominator is greater than 0.
+
+Your application should include the main module (main.cpp), an "interface" module (interface.h), a "matrix" module (matrix.h), a "rational" module (rational.h), and a number.h file
+Ensure that your TRational class allows for seamless integration with the existing modules (interface, matrix) and the class diagram specified in task #1. If you need to extend the functionality of the Square Matrix class, only add to its protocol without making any changes to the existing implementation.
+
+In the "interface" module, design and implement the graphical user interface using Qt or any other suitable GUI library for your chosen programming language. The GUI should provide users with the functionality described in task #1, using instances of the TRational class for rational number calculations.
