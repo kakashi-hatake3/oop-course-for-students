@@ -1,0 +1,18 @@
+TASK:
+To create a console application based on the provided class diagram for performing calculations on a square matrix defined over the set of real numbers, we need to specify the user-defined classes "Console Application" and "Square Matrix," i.e., define the attributes and methods for these classes and distribute them within the existing visibility scopes. The class specifications and implementation of their methods should ensure the realization of the relationships indicated in the class diagram. In the report, provide a well-founded justification for the choices made.
+
+The application should include the main module (main function), an "application" module, and a "matrix" module.
+
+In the main module of the console application (for C++, the module with the main function), an object of the "Console Application" class should be created, and its method that provides the user with a command menu should be called.
+
+The "application" module should contain the specification of the "Console Application" class and the implementation of its methods. One of its methods should print the command menu to the console, including:
+
+A command to initiate input from the console for values defining the matrix object (a default matrix should be specified before input in the program);
+A command to calculate the determinant of the matrix and display the calculation results;
+A command to initiate the formation of the transposed matrix and its output to the console;
+A command to calculate the rank of the matrix and display the calculation results;
+A command to initiate the display of the current matrix object in the console;
+A command to exit the application.
+The "matrix" module should contain the specification of the "Square Matrix" class and the implementation of its methods necessary to achieve the goals of the developed application. The class description should use an abstract type "number" instead of the double type (real number specified in the conditions). The description of the abstract type should be defined in a separate header file "number.h" using the typedef double number (for C++).
+
+IMPORTANT: The main requirement for the implementation of the "matrix" class is that it must be invariant (the same for different use cases) with respect to the set of applicable objects. The set here is defined as real numbers but could be integers, complex numbers, rationals, etc. The implementation of the class should remain the same for different sets while preserving functionality. Changing the implementation for different sets would defeat the purpose of OOP as a paradigm.
